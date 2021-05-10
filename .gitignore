@@ -2,9 +2,13 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,windows,macos,eclipse
 
 ### Eclipse ###
+*.class
 .metadata
 bin/
 tmp/
+test/
+.settings
+.project
 *.tmp
 *.bak
 *.swp
@@ -13,7 +17,11 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-
+pom.xml
+web.xml
+servlet-context.xml
+root-context.xml
+savefolder.properties
 # External tool builders
 .externalToolBuilders/
 
@@ -46,6 +54,10 @@ local.properties
 
 # STS (Spring Tool Suite)
 .springBeans
+.springBeans
+pom.properties
+MANIFEST.MF
+
 
 # Code Recommenders
 .recommenders/
@@ -66,10 +78,6 @@ local.properties
 ### Eclipse Patch ###
 # Spring Boot Tooling
 .sts4-cache/
-
-### Java ###
-# Compiled class file
-*.class
 
 # Log file
 *.log
