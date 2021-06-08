@@ -17,9 +17,6 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-pom.xml
-web.xml
-servlet-context.xml
 root-context.xml
 savefolder.properties
 # External tool builders
