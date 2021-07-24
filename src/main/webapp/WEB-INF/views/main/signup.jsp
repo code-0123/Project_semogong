@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="resources/css/idus.css">
 </head>
 <body>
+ <form action="joinProcess.net" method="post" name="signupForm">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6 login-section-wrapper">
@@ -154,7 +155,7 @@
 
             <div class="form-block form-block-submit">
                 <div class="form-block-body">
-                    <button class="btn btn-point btn-login"  id="submit" onclick="location.href='login';">
+                    <button class="btn btn-point btn-login" type="submit" id="submit">
                         회원가입하기
                     </button>
                 </div>
@@ -179,5 +180,6 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</form>
 </body>
 </html>
