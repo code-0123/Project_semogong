@@ -57,6 +57,10 @@
                     <div class="input-text size-w type-l">
                         <input class="" type="email" name="email" placeholder="이메일을 입력해주세요." required="" value="">
                     </div>
+                    
+                         <button type="button" class="btn btn-login btn-point btn-disabled" data-auth="request_btn" data-auth-url="/w/join/cellphone/auth">
+              중복확인
+                        </button>
                 </div>
             </div>
 
