@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.store.semo.domain.Member;
 import com.store.semo.service.MemberService;
@@ -17,6 +19,8 @@ public class memberController {
 	   @Autowired
 	   private MemberService memberservice;
 	
+	   // 회원가입 처리
+	   @RequestMapping(value = "/joinProcess.net", method = RequestMethod.POST)
 	public void joinProcess(Member member, HttpServletResponse response) throws Exception {
 	    response.setContentType("text/html;charset=utf-8");
 	    PrintWriter out = response.getWriter();
