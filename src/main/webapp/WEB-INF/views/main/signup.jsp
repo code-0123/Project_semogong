@@ -54,7 +54,9 @@
                     이메일
                 </label>
                 <div class="form-block-body">
+                <div class="ui-input-btn-combo">
                     <div class="input-text size-w type-l">
+                        <input class="reauth" type="hidden" name="only_auth" value="1">
                         <input class="" type="email" name="email" placeholder="이메일을 입력해주세요." required="" value="">
                     </div>
                     
