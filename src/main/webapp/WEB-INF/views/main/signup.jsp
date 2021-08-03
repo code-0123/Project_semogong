@@ -113,7 +113,7 @@
                 </div>
 
                 
-                
+             <!-- CSS 걸린 부분이 많아서 일단 임시로 막아둠 (휴대폰 인증확인 칸)
                 <div class="form-block-body hidden" data-auth="auth_code_block" data-form-block="auth_code">
                     <div class="ui-input-btn-combo size-w">
                         <div class="input-text size-w type-l">
@@ -123,6 +123,8 @@
                         <button type="button" class="btn btn-login btn-point btn-disabled" data-auth="auth_code_submit">확인</button>
                     </div>
                 </div>
+                --> 
+                
             </div>
 
             <div class="form-block check-all-wrap">
