@@ -4,8 +4,10 @@
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="Members">
-   <select id="idcheck" resultType="member" parameterType="String">
-      select * from semo_member where mem_id = #{mem_id}
+   <select id="insert" resultType="member" parameterType="String">
+    INSERT INTO semo_member(mem_no,mem_email,mem_pw,mem_name,mem_ph,mem_post,mem_addr1,mem_addr2)
+      VALUES
+      (semo_mem_seq.nextval,#{mem_id},#{mem_pw},#{mem_name},#{mem_ph},#{mem_post},#{mem_addr1},#{mem_addr2})
    </select>
    
    
