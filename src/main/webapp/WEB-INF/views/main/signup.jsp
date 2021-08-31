@@ -57,7 +57,7 @@
                 <div class="ui-input-btn-combo">
                     <div class="input-text size-w type-l">
                         <input class="reauth" type="hidden" name="only_auth" value="1">
-                        <input class="" type="email" name="email" placeholder="이메일을 입력해주세요." required="" value="">
+                        <input class="" type="email" name="mem_email" placeholder="이메일을 입력해주세요." required="" value="">
                     </div>
                     
                          <button type="button" class="btn btn-login btn-point btn-disabled" data-auth="request_btn" data-auth-url="/w/join/cellphone/auth">
@@ -73,12 +73,12 @@
                 </label>
                 <div class="form-block-body">
                     <div class="input-text size-w type-l" >
-                        <input type="password" name="password" placeholder="비밀번호 (영문+숫자+특수문자 8자 이상)" required="">
+                        <input type="password" name="mem_pw" placeholder="비밀번호 (영문+숫자+특수문자 8자 이상)" required="">
                     </div>
                 </div>
                 <div class="form-block-body">
                     <div class="input-text size-w type-l">
-                        <input type="password" name="password_confirm" placeholder="비밀번호 확인" required="">
+                        <input type="password" name="pw_confirm" placeholder="비밀번호 확인" required="">
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                 </label>
                 <div class="form-block-body">
                     <div class="input-text size-w type-l">
-                        <input class="" type="text" name="username" value="" placeholder="이름을 입력해주세요." required="">
+                        <input class="" type="text" name="mem_name" value="" placeholder="이름을 입력해주세요." required="">
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                     <div class="ui-input-btn-combo">
                         <div class="input-text size-w type-l">
                             <input class="reauth" type="hidden" name="only_auth" value="1">
-                            <input type="tel" name="cell_phone" data-auth="cell_phone" placeholder="010-1234-5678" value="" required="">
+                            <input type="tel" name="mem_ph" data-auth="cell_phone" placeholder="010-1234-5678" value="" required="">
                         </div>
                         <button type="button" class="btn btn-login btn-point btn-disabled" data-auth="request_btn" data-auth-url="/w/join/cellphone/auth">
                             인증요청

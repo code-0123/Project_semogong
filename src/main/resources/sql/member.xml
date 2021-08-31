@@ -5,9 +5,9 @@
 
 <mapper namespace="Members">
    <select id="insert" resultType="member" parameterType="String">
-    INSERT INTO semo_member(mem_no,mem_email,mem_pw,mem_name,mem_ph,mem_post,mem_addr1,mem_addr2)
+    INSERT INTO semo_member(mem_email,mem_pw,mem_name,mem_ph,mem_post,mem_addr1,mem_addr2)
       VALUES
-      (semo_mem_seq.nextval,#{mem_id},#{mem_pw},#{mem_name},#{mem_ph},#{mem_post},#{mem_addr1},#{mem_addr2})
+      (#{mem_email},#{mem_pw},#{mem_name},#{mem_ph},#{mem_post},#{mem_addr1},#{mem_addr2})
    </select>
    
    
